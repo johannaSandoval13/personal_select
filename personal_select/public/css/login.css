@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Montserrat&family=Quicksand:wght@300..700&display=swap');
+
+body {
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('/img/jo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.flex {
+    background-color: rgba(255, 255, 255, 0.8); /* Cambié el color de fondo a un blanco semi-transparente */
+    border: 2px solid #000000; /* Cambié el color del borde */
+    padding: 50px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4); /* Ajusté la sombra */
+    max-width: 1000px; /* Reduje el ancho máximo */
+    margin: 50px; /* Ajusté el margen */
+    border-radius: 20px; /* Añadí borde redondeado */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Añadí borde redondeado */
+}
+
+.form-group {
+    margin: 20px;
+    text-align: left; /* Cambié la alineación del texto */
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #000000; /* Cambié el color del texto */
+}
+
+select,
+input {
+    width: calc(100% - 30px); /* Ajusté el ancho */
+    padding: 15px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    outline: none; /* Eliminé el contorno al enfocar */
+}
+
+button {
+    padding: 15px 30px;
+    background-color: #cac39b; /* Cambié el color del botón */
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Añadí una transición suave */
+}
+
+button:hover {
+    background-color: #3c3d3c; /* Cambié el color del botón al pasar el mouse */
+}

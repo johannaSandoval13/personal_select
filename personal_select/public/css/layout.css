@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Montserrat&family=Quicksand:wght@300..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+.header {
+    background-color: #f2f2f2; /* Cambié el color del encabezado */
+    color: rgb(0, 0, 0); /* Cambié el color del texto */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    padding: 10px 20px; /* Añadí relleno al encabezado */
+}
+.input-search {
+    padding: 10px;
+    border-radius: 5px 0 0 5px; /* Bordes redondeados solo en la esquina izquierda */
+    border: 1px solid #ccc; /* Borde gris */
+    border-right: none; /* Sin borde derecho */
+}
+
+#btn-search {
+    background-color: #333; /* Cambia el color de fondo del botón */
+    color: #fff; /* Cambia el color del texto del botón */
+    border: none; /* Elimina el borde del botón */
+    padding: 10px 20px; /* Ajusta el padding del botón según sea necesario */
+    border-radius: 0 5px 5px 0; /* Bordes redondeados solo en la esquina derecha */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+#btn-search:hover {
+    background-color: #666; /* Cambia el color de fondo del botón al pasar el mouse */
+}
+
+.logo {
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.find {
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.find #form {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.find #form button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #6a6c6d; /* Cambié el color del botón de búsqueda */
+    color: white; /* Cambié el color del texto del botón */
+    padding: 6px 10px; /* Ajusté el relleno del botón */
+}
+
+.input-search {
+    width: 80%;
+    height: 100%;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid black;
+    padding-left: 20px;
+}
+
+.actions {
+    display: flex;
+    width: 33.3%;
+    height: 100%;
+    justify-content: flex-end; /* Cambié la alineación para que los elementos estén a la derecha */
+    align-items: center;
+    gap: 30px;
+}
+
+.actions h5 {
+    margin-right: 10px;
+}
+
+.actions h5 a {
+    text-decoration: none;
+    color: white;
+}
+
+.actions button {
+    padding: 8px 12px;
+    background-color: gray; /* Cambié el color de fondo del botón de acción */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.actions button:hover {
+    background-color: black; /* Cambié el color de fondo al pasar el mouse */
+}
+
+
+
+.Index {
+    width: 100%;
+    height: 20%;
+    background-color: #1abc9c; /* Cambié el color de la sección de índice */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Index h4 a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.cont a {
+    color: white;
+}
+
+.copy {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

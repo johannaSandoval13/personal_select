@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Montserrat&family=Quicksand:wght@300..700&display=swap');
+
+body {
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('/img/jo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sidebar {
+    background-color: #a2a7ac;
+    color: white;
+    width: 200px;
+    position: sticky;
+    top: 0;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para los enlaces dentro de la barra lateral */
+.sidebar a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* Estilos para los artículos dentro de la barra lateral */
+.sidebar article {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos para el área de visualización de información */
+.view-info {
+    margin-left: 220px; /* Ajuste para dejar espacio para la barra lateral */
+    padding: 20px;
+}
+
+/* Estilos para las opciones de información */
+.info-options {
+    margin-bottom: 20px;
+}
+
+/* Estilos para los títulos de las opciones de información */
+.info-options h4 {
+    margin-bottom: 10px;
+}
+
+/* Estilos para las acciones */
+.actions {
+    display: flex;
+}
+
+/* Estilos para los artículos de acción */
+.action {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+/* Estilos para la tabla */
+.table-content table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Estilos para las celdas de la tabla */
+.table-content th,
+.table-content td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Estilos para las filas de la tabla al pasar el mouse */
+.table-content tbody tr:hover {
+    background-color: #f2f2f2;
+}

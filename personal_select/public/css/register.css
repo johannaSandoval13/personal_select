@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Montserrat&family=Quicksand:wght@300..700&display=swap');
+
+body {
+    background-image: url('/img/jo.jpg');
+    background-size: cover;
+    font-family: "Quicksand", sans-serif;
+    margin: 0; /* Añadimos un margen cero para evitar desplazamiento */
+}
+
+main {
+    padding: 20px; /* Aumentamos el padding para separar el contenido del borde */
+    background-color: rgba(255, 255, 255, 0.8); /* Hacemos el fondo semi-transparente */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    background-color: #e6ddc0;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.info {
+    margin: 20px;
+}
+
+.info article {
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 20px;
+}
+
+input[type="text"], input[type="email"], select, textarea, input[type="submit"], input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #888686;
+    font-size: 16px;
+    box-sizing: border-box; /* Añadimos box-sizing para incluir el padding y el borde en el ancho */
+}
+
+button {
+    padding: 15px 50px;
+    background-color: #b0c6cc;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px; /* Añadimos un margen superior para separar el botón del resto del formulario */
+}

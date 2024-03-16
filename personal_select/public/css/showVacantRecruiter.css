@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Montserrat&family=Quicksand:wght@300..700&display=swap');
+* {
+
+    font-family: "Quicksand", sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/img/jo.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #c0b3b315;
+}
+
+.findCom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.findCom form {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.findCom form button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.findCom form input {
+    width: 90%;
+    height: 40px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border: 1px solid #dbdbdb;
+    outline: none;
+}
+
+.table_container {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table_head {
+    background-color: rgba(95, 87, 87, 0.555);
+    color: white;
+}
+
+.table_container th,
+.table_container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table_body tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.actions-l {
+    display: flex;
+    justify-content: space-between;
+}
+
+.deleteBtn,
+.updateBtn,
+.detailsBtn {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #c7a6a9;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.updateBtn {
+    background-color: #576069;
+}
+
+.detailsBtn {
+    background-color: #1a2e44;
+}
+
+.create {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.create a {
+    padding: 10px 20px;
+    background-color: #49534c;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.create a:hover {
+    background-color: #5b635d;
+}
+.title-page {
+    text-align: center;
+    margin: 20px 0;
+    margin-top: 40px;
+}
+
+.card_info {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff2a;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    border: 1px solid #b1b1b1;
+}
+
+.generalTitle {
+    background-color: #656e70;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.generalInfo,
+.otherGeneralInfo,
+.locationInfo,
+.status,
+.educations {
+    margin-top: 20px;
+}
+
+.charge span {
+    font-weight: bold;
+}
+
+.otherGeneralInfo p,
+.secondGeneral p,
+.locationInfo p,
+.status p {
+    margin-bottom: 10px;
+}
+
+.back {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.back a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #9ea9ac;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.back a:hover {
+    background-color: #1a2e44;
+}
+
+.table_container {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table_container th,
+.table_container td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}

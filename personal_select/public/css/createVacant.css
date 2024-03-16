@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Montserrat&family=Quicksand:wght@300..700&display=swap');
+* {
+
+    font-family: "Quicksand", sans-serif;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/img/jo.jpg'); /* Imagen de fondo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content-form {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #4d434380;
+    padding: 20px;
+    border: 2px solid #ddd; /* Borde */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    border-radius: 8px;
+}
+
+.createVacant {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+button {
+    background-color: #586264;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1a2e44;
+}
